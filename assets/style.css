@@ -220,3 +220,34 @@ footer{
     justify-content: center;
     margin: auto;
 } 
+
+.acercade h1{
+    text-align: center;
+    margin: 2px;
+    padding: 0.5cm;
+}
+
+.acercade h2{
+    margin: 2px;
+    text-align: center;
+    padding: 0.3cm;
+}
+.acercade h3{
+    margin: 2px;
+    text-align: justify;
+    padding: 0.3cm;
+}
+.acercade img{
+    height: auto;
+    width: auto;
+    max-height: 100vh;
+    max-width: 100vh;
+    padding-left: 25px;
+}
+.direccion h3{
+    margin: 2cm;
+    text-align: center;
+}
+.mapa iframe{
+    width: fit-content;
+}
