@@ -213,3 +213,10 @@ footer{
 
 @media (max-widht:858px){
 }
+
+.formStyle{
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    margin: auto;
+} 
