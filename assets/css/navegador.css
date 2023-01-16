@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Chivo", sans-serif;
+  text-decoration: none;
+}
+
+.navegador {
+  background: #00264A;
+  height: 80px;
+  width: 100%;
+  padding: auto;
+}
+.navegador ul {
+  float: right;
+  margin-right: 20px;
+}
+.navegador ul ul li a {
+  color: white;
+  font-size: 18px;
+  padding: 7 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+.navegador ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+.navegador ul li ul li a {
+  color: white;
+  font-size: 18px;
+  padding: 7 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.navegador ul li a {
+  color: white;
+  font-size: 18px;
+  padding: 7 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.enlace {
+  position: absolute;
+  padding: 20px 50px;
+}
+
+.logo {
+  height: 50px;
+}
+
+li a.active, li a:hover {
+  background-color: darkmagenta;
+  transition: 0.5s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}/*# sourceMappingURL=navegador.css.map */

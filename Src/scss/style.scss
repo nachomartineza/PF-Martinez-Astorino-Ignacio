@@ -3,81 +3,26 @@
 *{
     padding: 0;
     margin:0;
-    text-decoration: none;
     box-sizing: border-box;
     font-family: 'Chivo', sans-serif;
+    text-decoration: none;
 }
 
 body{
     font-family: "spartan", sans-serif;
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-    min-height: 100vh;
     overflow-x: hidden;
-    
+    min-height: 100vh;
 }
 
-
-nav{
-    background: #00264A;
-    height: 80px;
-    width: 100%;
-    padding: auto;
-    ul{
-        float: right;
-        margin-right: 20px;
-        ul li a{
-            color: white;
-            font-size: 18px;
-            padding: 7 13px;
-            border-radius: 3px;
-            text-transform: uppercase;
-        }
-        li{
-            display: inline-block;
-            line-height: 80px;
-            margin: 0 5px;
-            ul li a{
-                color: white;
-                font-size: 18px;
-                padding: 7 13px;
-                border-radius: 3px;
-                text-transform: uppercase;
-            }
-        }
-    }
-}
-nav ul li a{
-    color: white;
-    font-size: 18px;
-    padding: 7 13px;
-    border-radius: 3px;
-    text-transform: uppercase;
-}
-.enlace{
-    position: absolute;
-    padding: 20px 50px;
-}
-.logo{
-    height: 50px;
+.bodyContacto{
+    display: grid;
+    min-height: 100vh;
 }
 
-li a.active, li a:hover{
-    background-color: darkmagenta;
-    transition: .5s;
-}
-.checkbtn{
-    font-size: 30px;
-    color: #fff;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-#check{
-    display: none;
-}
+@import "navegador";
+
 
 
 @media (max-width: 850px){
@@ -94,12 +39,12 @@ li a.active, li a:hover{
         text-align: center;
         transition: all .5s;
     } 
-    nav ul li{
+    .navegador ul li{
         display: block;
         margin: 50px 0;
         line-height: 30px;
     }
-    nav ul li a{
+    .navegador ul li a{
         font-size: 20px;
     }
     li a:hover, li a.active{
@@ -110,6 +55,7 @@ li a.active, li a:hover{
         left: 0;
     }
 }
+
 .container{
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
@@ -231,10 +177,9 @@ footer{
 }
 
 .formStyle{
-    display: grid;
-    grid-template-rows: auto;
+    margin: 20px 30px;
     justify-content: center;
-    margin: auto;
+
 } 
 
 .acercade img{
