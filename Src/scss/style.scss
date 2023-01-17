@@ -1,32 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
-
-*{
-    padding: 0;
-    margin:0;
-    box-sizing: border-box;
-    font-family: 'Chivo', sans-serif;
-    text-decoration: none;
-}
-
-body{
-    font-family: "spartan", sans-serif;
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-    overflow-x: hidden;
-    min-height: 100vh;
-}
-
-.bodyContacto{
-    display: grid;
-    min-height: 100vh;
-}
-
+@import "reset";
+@import "fontstyle";
 @import "navegador";
+@import "body";
 @import "form";
+@import "nosotros";
+@import "ubicacion";
+@import "footer";
 
 
-
-@media (max-width: 850px){
+@media (max-width: 540px){
     .checkbtn{
         display: block;
     }
@@ -48,7 +30,7 @@ body{
     .navegador ul li a{
         font-size: 20px;
     }
-    li a:hover, li a.active{
+    li a:hover > li a.active{
         background: none;
         color: red;
     }
@@ -127,94 +109,8 @@ body{
     }
 }
 
-footer{
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #111;
-    height: auto;
-    width: 100vw;
-    padding-top: 40px;
-    color: #fff;
-    
-}
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-.footer-content h3{
-    font-size: 1.8rem;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 3rem;
-}
-.footer-content p{
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-}
-.footer-bottom{
-    background: #000;
-    width: 100vw;
-    padding: 20px 0;
-    text-align: center;
-}
-.footer-bottom p{
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
-}
-.footer-bottom span{
-    text-transform: uppercase;
-    opacity: .4;
-    font-weight: 200;
-}
 
-@media (max-widht:858px){
-}
 
-.formStyle{
-    margin: 20px 30px;
-    justify-content: center;
-
-} 
-
-.acercade img{
-    height: auto;
-    width: auto;
-    max-height: 100vh;
-    max-width: 100vh;
-    padding-left: 25px;
-    margin-left: 450px;
-}
-.acercade p{
-    font-size: 25px;
-    width: 700px;
-    height: fit-content;
-    margin: 600px;
-    margin-top: 40px;
-    color: #000;
-    text-align: left;
-}
-@media (max-width:896px){
-    .acercade p{
-        padding:20px;
-    }
-}
-
-.direccion h3{
-    margin: 2cm;
-    text-align: center;
-}
-.direccion .mapa{
-    margin-left: 610px;
-    margin-bottom: 30px;
-    margin-top: auto;
- }
 
  
     

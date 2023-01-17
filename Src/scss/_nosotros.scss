@@ -1,0 +1,39 @@
+.acercade {
+    display: flex;
+    background-image:url(/assets/img/fondopag.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.parrafo {
+    background-image: radial-gradient(#000 0.5px, transparent 1400px);
+    border-radius: 30px;
+    padding: 9px;
+    text-align: justify;
+}
+.acercade .texto{
+    font-size: 25px;
+    width: 700px;
+    height: fit-content;
+    margin-top: 0;
+    color: #fff;
+}
+
+@media (max-width: 540px){
+    .acercade .texto {
+        font-size: 12px;
+        margin-top: auto;
+        padding: 10px 100px;
+        width: 500px;
+        
+   }
+   .parrafo {
+    height: 45vh;
+    margin: 3px 3px;
+   
+   }
+}

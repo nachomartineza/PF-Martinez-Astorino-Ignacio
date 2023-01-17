@@ -1,0 +1,32 @@
+ .direccion {
+    display: grid;
+ 
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+    grid-template-areas: "texto texto texto"
+                          "map map map "
+                          "map map map ";
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    
+}
+.direccion h3 {
+    grid-area: texto;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 1.5rem;
+}
+
+ 
+ iframe {
+    grid-area: map;
+    height: 400px;
+    width: 80vw;
+    margin: 45px;
+    padding: 0;
+    margin-bottom: 23vh;
+ }
+
+ 
+

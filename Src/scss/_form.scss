@@ -4,7 +4,7 @@
 }
 .box-wrapper{
     position: relative;
-    display: table;
+    display: block;
     width:1100px;
     margin:auto;
     margin-top:35px;
@@ -80,7 +80,7 @@
     width:65%;
     float: right;
     padding:40px 25px 35px 25px;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 30px 30px 0px;
     background: #ecf0f3;
 }
 .form-title{
@@ -139,7 +139,7 @@
     background: #31279d;
 }
 /* Responsive css */
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 896px) {
     .box-wrapper{
         width: 100%;
     }
