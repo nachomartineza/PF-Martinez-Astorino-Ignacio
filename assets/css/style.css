@@ -309,12 +309,13 @@ body {
   .acercade .texto {
     font-size: 12px;
     margin-top: auto;
-    padding: 10px 100px;
-    width: 500px;
+    padding: 8px;
+    width: 280px;
   }
   .parrafo {
-    height: 45vh;
+    height: 50vh;
     margin: 3px;
+    width: 300px;
   }
 }
 .direccion {
